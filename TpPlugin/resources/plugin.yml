@@ -1,0 +1,13 @@
+name: TPA
+main: TPA\Main
+version: 1.0.0
+api: 5.0.0
+author: TonNom
+
+commands:
+  tpa:
+    description: Envoyer une demande de téléportation
+    usage: "/tpa <joueur>"
+  tpaccept:
+    description: Accepter une demande de téléportation
+    usage: "/tpaccept"
