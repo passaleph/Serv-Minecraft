@@ -1,0 +1,13 @@
+name: FactionPlugin
+version: 1.0.0
+api: [5.0.0]
+main: FactionPlugin
+commands:
+  faction:
+    description: Gestion des factions
+    usage: /faction <create|...>
+    permission: factionplugin.command.faction
+permissions:
+  factionplugin.command.faction:
+    description: Permet d'utiliser la commande /faction
+    default: true

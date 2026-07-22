@@ -1,0 +1,13 @@
+name: SurviePlugin
+version: 1.0.0
+api: [5.0.0]
+main: SurviePlugin
+commands:
+  survie:
+    description: Téléporte vers le monde survie
+    usage: /survie
+    permission: survieplugin.command.survie
+permissions:
+  survieplugin.command.survie:
+    description: Permet d'utiliser /survie
+    default: true
