@@ -7,7 +7,14 @@ commands:
     description: Téléporte vers le monde survie
     usage: /survie
     permission: survieplugin.command.survie
+  spawn:
+    description: Téléporte vers le spawn
+    usage: /spawn
+    permission: survieplugin.command.spawn
 permissions:
   survieplugin.command.survie:
     description: Permet d'utiliser /survie
+    default: true
+  survieplugin.command.spawn:
+    description: Permet d'utiliser /spawn
     default: true

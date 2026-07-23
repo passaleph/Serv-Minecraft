@@ -26,7 +26,9 @@ class SurviePlugin extends PluginBase {
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
 
-        if ($command->getName() !== "survie") {
+        $name = $command->getName();
+
+        if ($command->getName() !== "survie" && $command->getName() !== "spawn" ) {
             return false;
         }
 
@@ -35,17 +37,39 @@ class SurviePlugin extends PluginBase {
             return true;
         }
 
-        if ($command->getName() == "survie" && count($args) > 1) {
-            $sender->sendMessage("Nombre argment invalide.");
+        if (count($args) > 1) {
+            $sender->sendMessage("Nombre d'arguments invalide.");
             return true;
-        } else {
+        }
+
+        if ($name === "survie") {
             return $this->SurvieTp($sender);
-        }  
+        }
+            
+        if ($name === "spawn") {
+            return $this->SpawnTp($sender); 
+        }   
+
+        return false; 
+        
     }
 
 
     private function SurvieTp(Player $player): bool {
         $world = $this->getServer()->getWorldManager()->getWorldByName("survie");
+        if ($world === null) {
+            $player->sendMessage("§cCe monde n'existe pas ou n'est pas chargé.");
+            return true;
+        }
+
+        $player->teleport($world->getSpawnLocation());
+        return true;
+
+    }
+
+
+    private function SpawnTp(Player $player): bool {
+        $world = $this->getServer()->getWorldManager()->getWorldByName("spawn");
         if ($world === null) {
             $player->sendMessage("§cCe monde n'existe pas ou n'est pas chargé.");
             return true;

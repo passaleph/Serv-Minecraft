@@ -1,0 +1,7 @@
+name: BlockFixerPlugin
+version: 2.0.0
+main: BlockFixer\Main
+api: [5.0.0]
+load: STARTUP
+author: Kepler
+description: Enregistre les blocs Bedrock manquants dans PocketMine (dripstone, kelp, seagrass) pour qu'ils se chargent au lieu de generer une erreur "Unknown block ID".

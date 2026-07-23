@@ -1,0 +1,21 @@
+name: TpPlugin
+version: 1.0.0
+api: [5.0.0]
+main: TpPlugin
+author: TonNom
+commands:
+  tpa:
+    description: Envoyer une demande de téléportation à un joueur
+    usage: /tpa <joueur>
+    permission: tpplugin.command.tpa
+  tpaccept:
+    description: Accepter une demande de téléportation
+    usage: /tpaccept
+    permission: tpplugin.command.tpaccept
+permissions:
+  tpplugin.command.tpa:
+    description: Permet d'utiliser /tpa
+    default: true
+  tpplugin.command.tpaccept:
+    description: Permet d'utiliser /tpaccept
+    default: true
