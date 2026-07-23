@@ -64,7 +64,7 @@ class CreateFactionForm implements Form {
             $this->nomFaction,
             $description,
             $siteWeb,
-            $player->getName()
+            $player->getXuid()
         );
 
         $player->sendMessage("§aFaction \"" . $this->nomFaction . "\" créée avec succès !");
