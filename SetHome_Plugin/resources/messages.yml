@@ -1,0 +1,13 @@
+prefix: "§8[§aHome§8] "
+
+home-created: "§aVotre home §e{home} §aa été créé."
+home-deleted: "§cVotre home §e{home} §ca été supprimé."
+
+home-limit: "§cVous avez atteint la limite de 4 homes."
+
+home-not-found: "§cCe home n'existe pas."
+
+teleport-start: "§aTéléportation dans §e{time} §asecondes..."
+teleport-success: "§aTéléportation réussie !"
+
+cooldown: "§cVous devez attendre encore §e{time}s§c."

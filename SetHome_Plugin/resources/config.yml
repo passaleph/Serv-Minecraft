@@ -1,0 +1,8 @@
+# Nombre maximum de homes par joueur
+max-homes: 4
+
+# Temps avant téléportation (secondes)
+teleport-delay: 5
+
+# Temps entre deux utilisations de /home (secondes)
+home-cooldown: 30
