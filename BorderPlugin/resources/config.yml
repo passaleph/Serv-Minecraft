@@ -1,0 +1,8 @@
+# Bordure par monde (carré centré sur le spawn du monde = /setworldspawn)
+# Format :  nom_du_dossier_du_monde: limite
+# Exemple : village: 1000  ->  le joueur peut aller jusqu'à 1000 blocs du spawn dans toutes les directions
+# Un monde absent de cette liste n'a AUCUNE bordure.
+
+borders:
+  survie: 1500
+  village: 200

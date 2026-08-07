@@ -1,0 +1,7 @@
+# Mondes Minecraft (trop lourds pour git)
+*.mcworld
+worlds/
+
+# Fichiers temporaires
+*.log
+crashdumps/

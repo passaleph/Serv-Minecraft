@@ -1,0 +1,60 @@
+items:
+  # ---- Minerais (10%) ----
+  - id: diamond
+    min: 1
+    max: 5
+    chance: 10
+  - id: iron_ingot
+    min: 1
+    max: 16
+    chance: 10
+  - id: gold_ingot
+    min: 1
+    max: 8
+    chance: 10
+  - id: emerald
+    min: 1
+    max: 4
+    chance: 10
+
+  # ---- Rare (5%) ----
+  - id: elytra
+    min: 1
+    max: 1
+    chance: 5
+  - id: totem_of_undying
+    min: 1
+    max: 1
+    chance: 10
+  - id: obsidian
+    min: 64
+    max: 64
+    chance: 15
+  - id: weaponplugin:custom_sword
+    min: 1
+    max: 1
+    chance: 5
+
+  # ---- Nether / combat (20%) ----
+  - id: blaze_rod
+    min: 1
+    max: 8
+    chance: 20
+  - id: netherrack
+    min: 16
+    max: 64
+    chance: 20
+  - id: bow
+    min: 1
+    max: 1
+    chance: 20
+
+  # ---- Trucs nuls (fréquents) ----
+  - id: rotten_flesh
+    min: 4
+    max: 16
+    chance: 50
+  - id: stick
+    min: 1
+    max: 16
+    chance: 50

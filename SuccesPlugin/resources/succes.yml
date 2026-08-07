@@ -1,0 +1,115 @@
+succes:
+
+  # ========== SUCCÈS 1 : Diamants → Élytre ==========
+  collectionneur_diamant:
+    item: diamond
+    amount: 200
+    reward: elytra
+    reward_amount: 1
+    message: "§bCollectionneur de diamants ! Tu reçois une élytre !"
+
+  # ========== SUCCÈS 2 : Bûcheron (tous les bois) → 1 diamant ==========
+  bucheron_chene:
+    item: oak_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (chêne) !"
+  bucheron_bouleau:
+    item: birch_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (bouleau) !"
+  bucheron_sapin:
+    item: spruce_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (sapin) !"
+  bucheron_jungle:
+    item: jungle_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (jungle) !"
+  bucheron_acacia:
+    item: acacia_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (acacia) !"
+  bucheron_chene_noir:
+    item: dark_oak_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (chêne noir) !"
+  bucheron_mangrove:
+    item: mangrove_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (mangrove) !"
+  bucheron_cerisier:
+    item: cherry_log
+    amount: 128
+    reward: diamond
+    reward_amount: 1
+    message: "§aBûcheron (cerisier) !"
+
+  # ========== SUCCÈS 3 : Blé → Totem ==========
+  fermier_ble:
+    item: wheat
+    amount: 1000
+    reward: totem
+    reward_amount: 1
+    message: "§eGrand fermier ! Tu reçois un totem !"
+
+  # ========== SUCCÈS 4 : Légumes (chacun) → Pomme d'or ==========
+  maraicher_carotte:
+    item: carrot
+    amount: 528
+    reward: golden_apple
+    reward_amount: 1
+    message: "§6Maraîcher (carottes) !"
+  maraicher_pomme_de_terre:
+    item: potato
+    amount: 528
+    reward: golden_apple
+    reward_amount: 1
+    message: "§6Maraîcher (pommes de terre) !"
+  maraicher_betterave:
+    item: beetroot
+    amount: 528
+    reward: golden_apple
+    reward_amount: 1
+    message: "§6Maraîcher (betteraves) !"
+
+  # ========== SUCCÈS ARGENT : Pastèques → 1000 pièces ==========
+  cultivateur_pasteque:
+    item: melon_slice
+    amount: 128
+    reward: money          # mot-clé spécial = argent
+    reward_amount: 1000    # 1000 pièces
+    message: "§dCultivateur de pastèques ! +1000 pièces !"
+
+  # ========== PROPOSITIONS (à toi de garder ou virer) ==========
+  mineur_pierre:
+    item: cobblestone
+    amount: 1000
+    reward: diamond_pickaxe
+    reward_amount: 1
+    message: "§7Mineur confirmé ! Pioche en diamant !"
+  chasseur:
+    item: rotten_flesh
+    amount: 256
+    reward: golden_apple
+    reward_amount: 3
+    message: "§cChasseur de morts-vivants !"
+  roi_du_nether:
+    item: blaze_rod
+    amount: 64
+    reward: diamond
+    reward_amount: 10
+    message: "§4Roi du Nether !"

@@ -1,13 +1,13 @@
 <?php
 
-namespace SetHomePlugin\commands;
+namespace commands;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 
 use SetHomePlugin\Main;
-use SetHomePlugin\tasks\HomeTeleportTask;
+use tasks\HomeTeleportTask;
 
 
 class HomeCommand extends Command{

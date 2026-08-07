@@ -1,0 +1,14 @@
+name: WeaponPlugin
+version: 1.0.0
+api: [5.0.0]
+main: WeaponPlugin
+depend: [Customies]
+commands:
+  epee:
+    description: Reçois une arme custom
+    usage: /epee <kaelix|oniBlade>
+    permission: weaponplugin.command.epee
+permissions:
+  weaponplugin.command.epee:
+    description: Permet d'utiliser /epee
+    default: op

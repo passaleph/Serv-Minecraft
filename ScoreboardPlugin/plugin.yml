@@ -1,0 +1,7 @@
+name: ScoreboardPlugin
+main: ScoreboardPlugin
+version: 1.0.0
+api: [5.0.0]
+softdepend: [EconomyAPI]
+author: Luca
+description: Scoreboard natif configurable (remplace ScoreHud)

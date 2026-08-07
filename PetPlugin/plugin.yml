@@ -1,0 +1,22 @@
+name: PetPlugin
+version: 1.0.0
+api: [5.0.0]
+main: PetPlugin
+depend: [Customies]
+softdepend: [AuctionPlugin]
+commands:
+  pet:
+    description: Systeme de compagnons
+    usage: /pet give <type>
+    permission: petplugin.command.pet
+  bonbon:
+    description: Donne un bonbon pour nourrir son pet
+    usage: /bonbon
+    permission: petplugin.command.bonbon
+permissions:
+  petplugin.command.pet:
+    description: Gerer les compagnons
+    default: op
+  petplugin.command.bonbon:
+    description: Obtenir un bonbon
+    default: op

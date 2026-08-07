@@ -1,6 +1,6 @@
 <?php
 
-namespace SetHomePlugin\commands;
+namespace commands;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;

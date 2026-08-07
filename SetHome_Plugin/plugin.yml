@@ -5,28 +5,6 @@ api: 5.0.0
 author: Enolam
 description: Système de homes avec plusieurs maisons, cooldown et téléportation.
 
-commands:
-  sethome:
-    description: Créer un home
-    usage: "/sethome <nom>"
-    permission: sethomeplugin.sethome
-
-  home:
-    description: Se téléporter à un home
-    usage: "/home <nom>"
-    permission: sethomeplugin.home
-
-  delhome:
-    description: Supprimer un home
-    usage: "/delhome <nom>"
-    permission: sethomeplugin.delhome
-
-  homes:
-    description: Voir la liste des homes
-    usage: "/homes"
-    permission: sethomeplugin.homes
-
-
 permissions:
   sethomeplugin.sethome:
     default: true

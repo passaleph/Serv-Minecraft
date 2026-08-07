@@ -1,0 +1,22 @@
+name: BoxPlugin
+version: 1.0.0
+api: [5.0.0]
+main: BoxPlugin
+depend: [Customies]
+softdepend: [WeaponPlugin]
+commands:
+  box:
+    description: Fait spawn une crate (admin)
+    usage: /box <common|rare|legendary>
+    permission: boxplugin.command.box
+  key:
+    description: Donne une clé de crate (admin)
+    usage: /key <common|rare|legendary>
+    permission: boxplugin.command.key
+permissions:
+  boxplugin.command.box:
+    description: Permet de faire spawn les crates
+    default: op
+  boxplugin.command.key:
+    description: Permet de donner des clés
+    default: op

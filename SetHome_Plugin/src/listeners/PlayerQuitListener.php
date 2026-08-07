@@ -1,6 +1,6 @@
 <?php
 
-namespace SetHomePlugin\listeners;
+namespace listeners;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerQuitEvent;

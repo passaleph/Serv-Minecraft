@@ -1,0 +1,15 @@
+name: AuctionPlugin
+version: 1.0.0
+api: [5.0.0]
+main: AuctionPlugin
+softdepend: [EconomyAPI]
+commands:
+  ah:
+    description: Hotel des ventes
+    usage: /ah [sell <prix> | mes]
+    permission: auctionplugin.command.ah
+    aliases: [hdv, auction]
+permissions:
+  auctionplugin.command.ah:
+    description: Permet d'utiliser l'hotel des ventes
+    default: true

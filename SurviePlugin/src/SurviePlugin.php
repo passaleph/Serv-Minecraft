@@ -28,7 +28,7 @@ class SurviePlugin extends PluginBase {
 
         $name = $command->getName();
 
-        if ($command->getName() !== "survie" && $command->getName() !== "spawn" ) {
+        if ($command->getName() !== "survie" && $command->getName() !== "spawn" && $command->getName() !== "village" ) {
             return false;
         }
 
@@ -50,6 +50,11 @@ class SurviePlugin extends PluginBase {
             return $this->SpawnTp($sender); 
         }   
 
+        if ($name === "village") {
+            return $this->VillageTp($sender); 
+        }   
+
+
         return false; 
         
     }
@@ -70,6 +75,20 @@ class SurviePlugin extends PluginBase {
 
     private function SpawnTp(Player $player): bool {
         $world = $this->getServer()->getWorldManager()->getWorldByName("spawn");
+        if ($world === null) {
+            $player->sendMessage("§cCe monde n'existe pas ou n'est pas chargé.");
+            return true;
+        }
+
+        $player->teleport($world->getSpawnLocation());
+        return true;
+
+    }
+
+
+
+     private function VillageTp(Player $player): bool {
+        $world = $this->getServer()->getWorldManager()->getWorldByName("village");
         if ($world === null) {
             $player->sendMessage("§cCe monde n'existe pas ou n'est pas chargé.");
             return true;

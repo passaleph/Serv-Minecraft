@@ -11,10 +11,17 @@ commands:
     description: Téléporte vers le spawn
     usage: /spawn
     permission: survieplugin.command.spawn
+  village:
+    description: Téléporte vers le village
+    usage: /village
+    permission: survieplugin.command.village
 permissions:
   survieplugin.command.survie:
     description: Permet d'utiliser /survie
     default: true
   survieplugin.command.spawn:
     description: Permet d'utiliser /spawn
+    default: true
+  survieplugin.command.village:
+    description: Permet d'utiliser /village
     default: true

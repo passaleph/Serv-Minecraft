@@ -1,0 +1,76 @@
+# VanillaMobAI — server & performance settings
+# Mob damage, speed, breeding timers etc. stay vanilla in code (not configurable).
+
+features:
+  mob-ai: true
+  natural-spawn: true
+  monster-spawners: true
+  spawn-eggs: true
+  breeding: true
+  mob-interactions: true
+
+worlds:
+  # natural-spawn-mode: whitelist | blacklist
+  natural-spawn-mode: blacklist
+  # whitelist: only these folder names get natural spawn (empty = none when mode is whitelist)
+  natural-spawn-whitelist: []
+  # blacklist: these folder names never get natural spawn
+  natural-spawn-blacklist:
+    - nether
+    - hell
+    - ender
+    - end
+
+  spawner-mode: blacklist
+  spawner-whitelist: []
+  spawner-blacklist:
+    - nether
+    - hell
+    - ender
+    - end
+
+natural-spawn:
+  attempt-interval-ticks: 100
+  spawn-chance-percent: 25
+  players-per-tick: 2
+  min-distance: 24
+  max-distance: 96
+  cap-check-radius: 64
+  passive-cap: 12
+  hostile-cap: 24
+  passive-min-light: 9
+  hostile-max-light: 7
+  require-grass-for-passive: true
+  block-hostiles-on-peaceful: true
+  mobs:
+    cow: true
+    pig: true
+    sheep: true
+    chicken: true
+    zombie: true
+    skeleton: true
+    spider: true
+    creeper: true
+
+spawners:
+  enabled: true
+  tick-interval: 1
+  chunk-scan-radius: 1
+  block-hostiles-on-peaceful: true
+
+performance:
+  activation-range: 48
+  active-hostile-tick-interval: 1
+  active-passive-tick-interval: 2
+  inactive-tick-interval: 40
+  max-brains-per-tick: 48
+  sync-pathfinds-per-tick: 3
+  pathfind-queue-size: 32
+  pathfind-snapshot-radius: 20
+  pathfind-snapshot-y-below: 2
+  pathfind-snapshot-y-above: 5
+  line-of-sight-check-interval: 5
+  target-scan-interval: 10
+  walk-line-check-interval: 4
+  waypoint-skip-interval: 8
+  mob-count-cache-ttl-ticks: 40

@@ -1,0 +1,14 @@
+name: PortailPlugin
+version: 1.0.0
+api: [5.0.0]
+main: PortailPlugin
+depend: [Customies]
+commands:
+  portail:
+    description: Fait spawn le portail
+    usage: /portail
+    permission: portailplugin.command.portail
+permissions:
+  portailplugin.command.portail:
+    description: Permet de spawn le portail
+    default: op

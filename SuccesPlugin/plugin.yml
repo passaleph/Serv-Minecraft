@@ -1,0 +1,15 @@
+name: SuccesPlugin
+version: 1.0.0
+api: [5.0.0]
+main: SuccesPlugin
+softdepend: [EconomyAPI]
+commands:
+  sucess:
+    description: affiche tous les succés et permet de les compléter
+    usage: /sucess
+    permission: SuccesPlugin.command.sucess
+permissions:
+  SuccesPlugin.command.sucess:
+    description: Permet d'utiliser /sucess
+    default: true
+ 

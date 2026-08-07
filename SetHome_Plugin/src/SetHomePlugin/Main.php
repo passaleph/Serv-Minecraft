@@ -5,12 +5,12 @@ namespace SetHomePlugin;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
-use SetHomePlugin\commands\SetHomeCommand;
-use SetHomePlugin\commands\HomeCommand;
-use SetHomePlugin\commands\DelHomeCommand;
-use SetHomePlugin\commands\HomesCommand;
+use commands\SetHomeCommand;
+use commands\HomeCommand;
+use commands\DelHomeCommand;
+use commands\HomesCommand;
 
-use SetHomePlugin\listeners\PlayerQuitListener;
+use listeners\PlayerQuitListener;
 
 
 class Main extends PluginBase{

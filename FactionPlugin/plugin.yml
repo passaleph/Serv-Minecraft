@@ -2,6 +2,7 @@ name: FactionPlugin
 version: 1.0.0
 api: [5.0.0]
 main: FactionPlugin
+softdepend: [EconomyAPI]
 commands:
   faction:
     description: Gestion des factions

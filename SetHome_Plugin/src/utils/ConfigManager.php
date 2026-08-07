@@ -1,6 +1,6 @@
 <?php
 
-namespace SetHomePlugin\utils;
+namespace utils;
 
 use pocketmine\utils\Config;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace SetHomePlugin\tasks;
+namespace tasks;
 
 use pocketmine\scheduler\Task;
 use pocketmine\player\Player;

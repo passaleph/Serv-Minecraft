@@ -1,0 +1,14 @@
+name: PrimePlugin
+version: 1.0.0
+api: [5.0.0]
+main: PrimePlugin
+softdepend: [EconomyAPI]
+commands:
+  prime:
+    description: Gestion des primes
+    usage: /prime <depose|list>
+    permission: primeplugin.command.prime
+permissions:
+  primeplugin.command.prime:
+    description: Permet d'utiliser la commande /prime
+    default: true

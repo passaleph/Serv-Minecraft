@@ -1,0 +1,20 @@
+# ================== ScoreboardPlugin ==================
+# Titre affiche en haut du scoreboard
+title: "§6§l★ SERVEUR ★"
+
+# Rafraichissement en ticks (20 ticks = 1 seconde)
+update-interval: 20
+
+# Les lignes du scoreboard, de haut en bas.
+# Balises dispo : {name} {money} {online} {max} {world} {ping} {date} {airdrop}
+# Une balise inconnue est remplacee par du vide.
+lines:
+  - ""
+  - "§d✦ §7Joueur §8» §f{name}"
+  - "§a✦ §7Argent §8» §a{money}§2$"
+  - "§b✦ §7En ligne §8» §f{online}§7/§f{max}"
+  - "§6✦ §7Airdrop §8» §e{airdrop}"
+  - "§8§m               "
+  - "§e★ §7Votez §8» §f/vote"
+  - "§e★ §7IP §8» §f145.239.74.161"
+  - ""

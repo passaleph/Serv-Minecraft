@@ -1,0 +1,15 @@
+name: BossPlugin
+version: 1.0.0
+api: [5.0.0]
+main: BossPlugin
+depend: [Customies]
+softdepend: [WeaponPlugin, BoxPlugin]
+commands:
+  boss:
+    description: Invoque le boss gobelin
+    usage: /boss
+    permission: bossplugin.command.boss
+permissions:
+  bossplugin.command.boss:
+    description: Permet d'invoquer le boss
+    default: op

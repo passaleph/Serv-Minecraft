@@ -1,0 +1,6 @@
+name: BorderPlugin
+version: 1.0.0
+api: [5.0.0]
+main: BorderPlugin
+author: Neiz
+description: Bordure carrée par monde, centrée sur le spawn du monde.

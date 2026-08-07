@@ -1,0 +1,11 @@
+name: VanillaMobAI
+main: grinn34\vanillaMobAI\Main
+version: 1.2.1
+api: [5.0.0]
+author: grinn34
+description: Vanilla-style mob AI for PocketMine-MP.
+load: POSTWORLD
+permissions:
+  vanillaMobAI.command:
+    default: op
+    description: Allows use of VanillaMobAI commands.

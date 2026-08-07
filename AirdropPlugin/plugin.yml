@@ -1,0 +1,14 @@
+name: Airdrop
+version: 1.0.0
+api: [5.0.0]
+main: AirdropPlugin
+softdepend: [ScoreboardPlugin]
+commands:
+  airdrop:
+    description: Gestion des airdrops
+    usage: /airdrop
+    permission: airdrop.command.use
+permissions:
+  airdrop.command.use:
+    description: Permet d'utiliser la commande /airdrop
+    default: op
